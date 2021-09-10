@@ -22,6 +22,6 @@ urlpatterns = [
     path('',views.index),
     path('home',views.homee),
     path('scaler',views.scaler),
-    path('<str:name',views.name),
+    path('<str:name>',views.namee),
     path('about',views.about)
 ]

@@ -8,7 +8,7 @@ def homee(request):
     return HttpResponse("Welcome to home page!")
 def scaler(request):
     return HttpResponse("Welcome to scaler page!")
-def name(request, name):
+def namee(request, name):
     return HttpResponse(f"Welcome {name}!")
 def about(request):
     return HttpResponse("""
