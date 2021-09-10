@@ -8,14 +8,14 @@ def homee(request):
     return HttpResponse("Welcome to home page!")
 def scaler(request):
     return HttpResponse("Welcome to scaler page!")
-def namee(request, name):
-    return HttpResponse(f"Welcome {name}!")
 def about(request):
     return HttpResponse("""
         <h1>
             About Me
         </h1>
         <p> 
-            Hello Iam Aditya Shukla from Edge Nov20 SuperX Batch.Iam feeling luckly.
+            Hello Iam Aditya Shukla from Edge Nov20 SuperX Batch.Iam feeling luckly
         </p>
     """)
+def namee(request, name):
+    return HttpResponse(f"Welcome {name}!")
