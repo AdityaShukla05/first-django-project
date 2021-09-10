@@ -12,8 +12,6 @@ def namee(request, name):
     return HttpResponse(f"Welcome {name}!")
 def about(request):
     return HttpResponse("""
-        <h1> About Me </h1>
-        <p> Hello Iam Aditya Shukla from Edge Nov20 SuperX Batch.
-        Iam feeling luckly. 
-        </p>
+        <h1>About Me</h1>
+        <p> Hello Iam Aditya Shukla from Edge Nov20 SuperX Batch.Iam feeling luckly.</p>
     """)
