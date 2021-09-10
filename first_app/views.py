@@ -4,7 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     return HttpResponse("Hello World!")
-def home(reuest):
+def homee(request):
     return HttpResponse("Welcome to home page!")
 def scaler(request):
     return HttpResponse("Welcome to scaler page!")
